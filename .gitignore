@@ -1,2 +1,8 @@
 data/
 bg_pred/
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python

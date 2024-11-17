@@ -58,8 +58,6 @@ def float_time_range(start: float, stop: float, step: float) -> list[str]:
     current = start
     
     while (step > 0 and current <= stop) or (step < 0 and current >= stop):
-        print(current)
-        print(float_to_time(current))
         times.append(float_to_time(current))
 
         hours = int(current)
@@ -80,12 +78,5 @@ def float_time_range(start: float, stop: float, step: float) -> list[str]:
 
     return times
     
-
-
-# Example usage
-if __name__ == "__main__":
-    result = float_time_range(1.55, 2.05, 0.10)
-    # Should return '1:55','2:05'
-    print(result)
 
     
