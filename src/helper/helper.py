@@ -24,6 +24,33 @@ def time_to_float(time_str: str) -> float:
         return round(hours + minutes / 100, 2)
     else:
         return round(hours - minutes / 100, 2)
+    
+def float_time_minus(time1: float, time2: float) -> float:
+    """Subtract two float times
+     e.g., 2.55 - 1.55 = 1.00
+     e.g., -2.55 - -1.55 = -1.00
+     e.g., 2.55 - -1.55 = 4.50
+     """
+
+    hours1 = int(time1)
+    minutes1 = int(round((time1 - hours1) * 100))
+
+    hours2 = int(time2)
+    minutes2 = int(round((time2 - hours2) * 100))
+
+
+    total_minutes1 = hours1 * 60 + minutes1
+    total_minutes2 = hours2 * 60 + minutes2
+
+    diff_minutes = total_minutes1 - total_minutes2
+
+    result_hours, result_minutes = divmod(abs(diff_minutes), 60)
+
+    if diff_minutes < 0:
+        result_hours = -result_hours
+        result_minutes = -result_minutes
+
+    return result_hours + result_minutes / 100
 
 
 def float_time_range(start: float, stop: float, step: float) -> list[str]:
