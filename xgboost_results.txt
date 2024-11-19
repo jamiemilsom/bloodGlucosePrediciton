@@ -1,0 +1,22 @@
+Fold 1 RMSE: 10.512356880122672
+Best Parameters for Fold 1:
+{'tree_method': 'hist', 'subsample': 1.0, 'n_estimators': 200, 'max_depth': 10, 'learning_rate': 0.2, 'device': 'cuda', 'colsample_bytree': 0.8}
+
+Fold 2 RMSE: 10.465357791950618
+Best Parameters for Fold 2:
+{'tree_method': 'hist', 'subsample': 0.7, 'n_estimators': 500, 'max_depth': 7, 'learning_rate': 0.05, 'device': 'cuda', 'colsample_bytree': 1.0}
+
+Fold 3 RMSE: 10.466972951108197
+Best Parameters for Fold 3:
+{'tree_method': 'hist', 'subsample': 1.0, 'n_estimators': 200, 'max_depth': 10, 'learning_rate': 0.2, 'device': 'cuda', 'colsample_bytree': 0.8}
+
+Fold 4 RMSE: 10.482274761508394
+Best Parameters for Fold 4:
+{'tree_method': 'hist', 'subsample': 1.0, 'n_estimators': 200, 'max_depth': 10, 'learning_rate': 0.2, 'device': 'cuda', 'colsample_bytree': 0.8}
+
+Fold 5 RMSE: 10.605602643031466
+Best Parameters for Fold 5:
+{'tree_method': 'hist', 'subsample': 0.7, 'n_estimators': 500, 'max_depth': 7, 'learning_rate': 0.05, 'device': 'cuda', 'colsample_bytree': 1.0}
+
+Mean CV RMSE: 10.5065 ± 0.0523
+Total Runtime: 555.88 seconds
