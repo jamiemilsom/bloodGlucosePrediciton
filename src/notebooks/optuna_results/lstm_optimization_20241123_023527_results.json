@@ -1,0 +1,246 @@
+{
+  "study_name": "lstm_optimization_20241123_023527",
+  "trials": [
+    {
+      "number": 0,
+      "params": {
+        "hidden_size": 204,
+        "num_layers": 1,
+        "dropout": 0.44409212356202415,
+        "batch_size": 128,
+        "learning_rate": 0.005910714624583147
+      },
+      "value": 0.06594620736319227,
+      "datetime": "2024-11-23 02:41:22"
+    },
+    {
+      "number": 1,
+      "params": {
+        "hidden_size": 220,
+        "num_layers": 3,
+        "dropout": 0.47460816687392127,
+        "batch_size": 16,
+        "learning_rate": 0.0019550937147834214
+      },
+      "value": 0.07572863223757967,
+      "datetime": "2024-11-23 02:50:26"
+    },
+    {
+      "number": 2,
+      "params": {
+        "hidden_size": 158,
+        "num_layers": 3,
+        "dropout": 0.14312592170159116,
+        "batch_size": 64,
+        "learning_rate": 0.0001589029224149536
+      },
+      "value": 0.060000414258636496,
+      "datetime": "2024-11-23 04:38:09"
+    },
+    {
+      "number": 3,
+      "params": {
+        "hidden_size": 142,
+        "num_layers": 2,
+        "dropout": 0.02196117940985992,
+        "batch_size": 32,
+        "learning_rate": 0.0002168702733088833
+      },
+      "value": 0.04965812712654255,
+      "datetime": "2024-11-23 05:48:31"
+    },
+    {
+      "number": 4,
+      "params": {
+        "hidden_size": 68,
+        "num_layers": 3,
+        "dropout": 0.3003743399145725,
+        "batch_size": 32,
+        "learning_rate": 0.0004032393667862285
+      },
+      "value": 0.06117684997029995,
+      "datetime": "2024-11-23 06:02:00"
+    },
+    {
+      "number": 8,
+      "params": {
+        "hidden_size": 102,
+        "num_layers": 1,
+        "dropout": 0.3376473541285027,
+        "batch_size": 64,
+        "learning_rate": 0.0026930312968810326
+      },
+      "value": 0.04938529467653017,
+      "datetime": "2024-11-23 06:14:38"
+    },
+    {
+      "number": 11,
+      "params": {
+        "hidden_size": 117,
+        "num_layers": 2,
+        "dropout": 0.00642028439009662,
+        "batch_size": 32,
+        "learning_rate": 0.0018198280685311988
+      },
+      "value": 0.06784480090799003,
+      "datetime": "2024-11-23 06:24:51"
+    },
+    {
+      "number": 17,
+      "params": {
+        "hidden_size": 85,
+        "num_layers": 2,
+        "dropout": 0.4227477219753639,
+        "batch_size": 16,
+        "learning_rate": 0.0013149344229711447
+      },
+      "value": 0.06681992981993609,
+      "datetime": "2024-11-23 06:41:49"
+    },
+    {
+      "number": 44,
+      "params": {
+        "hidden_size": 198,
+        "num_layers": 1,
+        "dropout": 0.3477747257212626,
+        "batch_size": 32,
+        "learning_rate": 0.002696967142954926
+      },
+      "value": 0.06771432676820757,
+      "datetime": "2024-11-23 07:19:07"
+    },
+    {
+      "number": 51,
+      "params": {
+        "hidden_size": 82,
+        "num_layers": 2,
+        "dropout": 0.4198556753384973,
+        "batch_size": 16,
+        "learning_rate": 0.0012749790293175248
+      },
+      "value": 0.05349330926827829,
+      "datetime": "2024-11-23 07:44:09"
+    },
+    {
+      "number": 69,
+      "params": {
+        "hidden_size": 144,
+        "num_layers": 1,
+        "dropout": 0.38731539044419583,
+        "batch_size": 16,
+        "learning_rate": 0.0018187120792158267
+      },
+      "value": 0.060751231912077285,
+      "datetime": "2024-11-23 08:56:51"
+    },
+    {
+      "number": 72,
+      "params": {
+        "hidden_size": 112,
+        "num_layers": 1,
+        "dropout": 0.4390694758157532,
+        "batch_size": 16,
+        "learning_rate": 0.001804278450535905
+      },
+      "value": 0.06609887820152995,
+      "datetime": "2024-11-23 09:12:46"
+    },
+    {
+      "number": 73,
+      "params": {
+        "hidden_size": 146,
+        "num_layers": 1,
+        "dropout": 0.4296993144975143,
+        "batch_size": 16,
+        "learning_rate": 0.001972098629625466
+      },
+      "value": 0.05814478059169142,
+      "datetime": "2024-11-23 09:42:20"
+    },
+    {
+      "number": 74,
+      "params": {
+        "hidden_size": 144,
+        "num_layers": 1,
+        "dropout": 0.3309075733604772,
+        "batch_size": 16,
+        "learning_rate": 0.002290730336832708
+      },
+      "value": 0.06588284810244388,
+      "datetime": "2024-11-23 10:03:13"
+    },
+    {
+      "number": 77,
+      "params": {
+        "hidden_size": 166,
+        "num_layers": 1,
+        "dropout": 0.33548756873787366,
+        "batch_size": 16,
+        "learning_rate": 0.001999856587680849
+      },
+      "value": 0.061480086042838146,
+      "datetime": "2024-11-23 10:57:48"
+    },
+    {
+      "number": 79,
+      "params": {
+        "hidden_size": 159,
+        "num_layers": 1,
+        "dropout": 0.34878435527665125,
+        "batch_size": 16,
+        "learning_rate": 0.0037241536565752113
+      },
+      "value": 0.06768803957582684,
+      "datetime": "2024-11-23 11:17:11"
+    },
+    {
+      "number": 82,
+      "params": {
+        "hidden_size": 149,
+        "num_layers": 1,
+        "dropout": 0.316485529227308,
+        "batch_size": 16,
+        "learning_rate": 0.001820033841370662
+      },
+      "value": 0.05837390678191047,
+      "datetime": "2024-11-23 12:01:57"
+    },
+    {
+      "number": 93,
+      "params": {
+        "hidden_size": 144,
+        "num_layers": 1,
+        "dropout": 0.3580522356154327,
+        "batch_size": 16,
+        "learning_rate": 0.0021576098434781697
+      },
+      "value": 0.05856133051032366,
+      "datetime": "2024-11-23 12:48:09"
+    },
+    {
+      "number": 95,
+      "params": {
+        "hidden_size": 153,
+        "num_layers": 1,
+        "dropout": 0.39877537717011635,
+        "batch_size": 16,
+        "learning_rate": 0.0020504611006569957
+      },
+      "value": 0.06568048013705496,
+      "datetime": "2024-11-23 13:07:29"
+    }
+  ],
+  "best_trial": {
+    "number": 8,
+    "params": {
+      "hidden_size": 102,
+      "num_layers": 1,
+      "dropout": 0.3376473541285027,
+      "batch_size": 64,
+      "learning_rate": 0.0026930312968810326
+    },
+    "value": 0.04938529467653017,
+    "datetime": "2024-11-23 06:14:38"
+  },
+  "best_value": 0.04938529467653017
+}
