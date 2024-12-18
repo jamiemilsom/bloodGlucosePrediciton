@@ -20,3 +20,13 @@ Best Parameters for Fold 5:
 
 Mean CV RMSE: 10.5065 ± 0.0523
 Total Runtime: 555.88 seconds
+
+
+Best trial:
+  Value: 0.0004114389510458025
+  Params: 
+    max_depth: 10
+    learning_rate: 0.7057888338320615
+    min_child_weight: 8
+    reg_lambda: 0.01696500898391533
+    num_boost_round: 467
